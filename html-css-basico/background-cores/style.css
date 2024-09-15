@@ -1,0 +1,12 @@
+h1 {
+  background: #8844ee;
+  /* color: #8844ee; */
+  color: rgba(255, 0, 0, 0.5); /* a é o valor de ALFA sendo de 0 - 1 é utilizado para dar 
+  opacidade*/
+}
+
+a {
+  background: seagreen;
+  color: white;
+  font-size: 30px;
+}
