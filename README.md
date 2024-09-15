@@ -10,11 +10,11 @@ Aqui estão alguns dos projetos que você encontrará neste repositório:
 
 - Uma página pessoal onde apresento meus projetos, habilidades e informações de contato.
 
-2. Calculadora de IMC
+2. [Calculadora de IMC](https://projects-ruby-theta.vercel.app/)
 
 - Um projeto interativo que calcula o Índice de Massa Corporal (IMC) com base no peso e altura fornecidos pelo usuário.
 
-3. Landing Page
+3. [Landing Page](https://jrs-neto.netlify.app/#intro)
 
 - Um exemplo de página de destino criada para demonstrar técnicas de layout e estilização.
 
