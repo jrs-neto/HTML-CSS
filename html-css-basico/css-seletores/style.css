@@ -1,0 +1,36 @@
+#introducao {
+  color: gold;
+}
+
+.codigo .design {
+  color: red;
+}
+
+.azul {
+  color: blue;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.grande {
+  font-size: 32px;
+}
+
+/* .design {
+  color: red;
+} */
+
+/* h1,
+a {
+  color: red;
+} */
+
+/* html body a {
+  color: black;
+} */
+
+/* p a {
+  color: black;
+} */
