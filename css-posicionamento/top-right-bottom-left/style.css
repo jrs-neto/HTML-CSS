@@ -1,0 +1,25 @@
+body {
+  writing-mode: vertical-lr;
+}
+
+h1 {
+  margin-block-start: 30px;
+  margin-top: 30px;
+}
+
+span {
+  display: inline-block;
+  background: #ddd;
+}
+
+span {
+  padding: 30px;
+  padding: 20px 30px;
+  padding: 40px 100px 200px 10px;
+  border: 10px solid black;
+  border-top: 20px solid blue;
+  border-width: 30px 60px;
+  /* margin: 30px;
+  margin: 20px 40px;
+  margin: 40px 100px 200px 10px; */
+}
