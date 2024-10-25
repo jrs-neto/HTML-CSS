@@ -1,0 +1,11 @@
+body {
+  margin: 0px;
+}
+
+div {
+  background: lightblue;
+  width: calc(100vh - 100px);
+  /* width: 50%; */
+  /* width: 100vh; */
+  height: 100vh;
+}
