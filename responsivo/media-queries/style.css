@@ -1,0 +1,42 @@
+/* max-width: 100% torna a imagem responsiva */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+h1 {
+  grid-column: 1 / -1;
+}
+
+/* Media Querie: max significa MENOR que, MIN significa MAIOR que */
+
+@media (max-width: 600px) {
+  div {
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    background: lightpink;
+  }
+  img {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 150%;
+  }
+}
+
+/* Quando as duas condições forem verdadeiras */
+@media (min-width: 700px) and (max-width: 900px) {
+  p {
+    background: lightblue;
+  }
+}
