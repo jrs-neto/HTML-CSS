@@ -1,0 +1,9 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  color: tomato; /* Efeito cascata, o que for colocado por último subscreve o anterior. */
+  font-size: 32px;
+}
