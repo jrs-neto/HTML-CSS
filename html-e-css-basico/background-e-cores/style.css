@@ -1,0 +1,10 @@
+h1 {
+  background: #8844ee;
+  color: rgba(0, 0, 0, 0.5); /* A é o valor de alfa, vai de 0 até 1 */
+}
+
+a {
+  background: seagreen;
+  color: white; /* Pinta a cor da tipografia */
+  font-size: 30px;
+}
