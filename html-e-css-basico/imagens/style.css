@@ -1,0 +1,24 @@
+/* Aula 1 */
+/* img {
+  max-width: 100%;
+  display: block;
+}
+
+div {
+  width: 300px;
+}
+
+.foto {
+  width: 150px;
+} */
+
+/* Aula 2 */
+img {
+  max-width: 100%;
+  width: 600px;
+  display: block;
+}
+
+body {
+  background: lightblue;
+}
