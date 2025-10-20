@@ -1,0 +1,39 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo: #222;
+    --texto-1: #eee;
+    ---texto-2: #bbb;
+    /* --cor-primaria: #84e;
+  --borda: 4px solid blue;
+  --fonte-grande: 3rem; */
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --fundo: #fff;
+    --texto-1: #111;
+    ---texto-2: #444;
+    /* --cor-primaria: #84e;
+  --borda: 4px solid blue;
+  --fonte-grande: 3rem; */
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  background: var(--fundo);
+}
+
+h1 {
+  /* font-size: var(--fonte-grande); */
+  color: var(--texto-1);
+}
+
+p {
+  /* --cor-primaria: #222;
+  font-size: calc(var(--font-grande) / 2);
+  margin-top: var(--fonte-grande); */
+  color: var(---texto-2);
+}
