@@ -1,0 +1,41 @@
+p [required] {
+  border: 2px solid tomato;
+}
+
+a[href="#"] {
+  border: 2px solid greenyellow;
+}
+
+[href^="#"] {
+  /* Seleciona tudo que COMEÇA com # */
+  background: tomato;
+}
+
+[href$=".com"] {
+  /* Seleciona tudo que TERMINA com .com */
+  background: forestgreen;
+}
+
+section > h2 {
+  /* Apenas o h2 que for filho direto da section */
+  color: tomato;
+}
+
+p {
+  margin: 0px;
+}
+
+article {
+  background: lightgreen;
+  padding: 10px;
+}
+
+p + p {
+  /* Todo p que vier após um elemento p */
+  margin-top: 20px;
+}
+
+* {
+  /* Seleciona todos os elementos do site. */
+  border: 2px solid red;
+}
